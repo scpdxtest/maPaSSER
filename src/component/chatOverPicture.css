@@ -1,0 +1,370 @@
+/* Modern neutral theme for ChatOverPicture component */
+
+:root{
+  --bg:#f7f8fb;
+  --panel:#ffffff;
+  --muted:#7a8799;
+  --accent:#4f46e5;
+  --success:#22c55e;
+  --danger:#ef4444;
+  --card-shadow: 0 6px 18px rgba(31,41,55,0.06);
+  --glass: rgba(255,255,255,0.6);
+}
+
+/* Container & Dialog adjustments */
+.p-dialog .p-card {
+  box-shadow: none;
+  border-radius: 12px;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  background: linear-gradient(90deg, rgba(79,70,229,0.03), transparent);
+}
+
+.image-panel .p-card-title {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Left image panel */
+.image-panel input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: var(--panel);
+  border: 1px dashed rgba(0,0,0,0.06);
+  cursor: pointer;
+}
+
+.image-panel img {
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.04);
+  box-shadow: var(--card-shadow);
+  background: linear-gradient(180deg, #fff, #fbfdff);
+}
+
+/* Buttons group */
+.image-panel .p-button {
+  min-width: 110px;
+}
+
+/* Chat area */
+.message-card {
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(16,24,40,0.03);
+  background: var(--panel);
+}
+
+/* Differentiate user and model messages */
+.user-message {
+  align-self: flex-end;
+  background: linear-gradient(180deg, #f8fafc, #eef2ff);
+  border-left: 3px solid rgba(79,70,229,0.12);
+  color: #1e3a8a !important; /* Ensure dark blue text color */
+}
+
+.user-message .message-content {
+  color: #1e3a8a !important; /* Ensure dark blue text color for all content */
+  font-size: 0.95rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+/* Message header */
+.message-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px;
+}
+
+.message-header strong {
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.message-header .timestamp {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-left: 8px;
+}
+
+/* Message content */
+.message-content {
+  display:block;
+  color:#111827;
+  font-size:0.95rem;
+  line-height:1.45;
+  word-break: break-word;
+}
+
+.message-content img {
+  border-radius:8px;
+  border:1px solid rgba(0,0,0,0.04);
+}
+
+/* Conversation / scroll area */
+.messages-container {
+  background: linear-gradient(180deg, #fcfdff, #f8fafc);
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.03);
+}
+
+/* Input area */
+.input-container {
+  margin-top: 8px;
+  padding: 8px 0;
+}
+
+.message-input, .message-input-textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.06) !important;
+  padding: 10px 12px;
+  background: #fff;
+  box-shadow: inset 0 1px 0 rgba(16,24,40,0.02);
+}
+
+.send-button {
+  background: linear-gradient(90deg, var(--accent), #6d28d9) !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: 0 6px 18px rgba(79,70,229,0.12);
+}
+
+/* Progress / spinner area */
+.answering-indicator {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:8px;
+  color: var(--muted);
+}
+
+/* Small UI helpers */
+.welcome-message {
+  padding: 28px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(79,70,229,0.02), rgba(79,70,229,0.01));
+  text-align: center;
+  color: var(--muted);
+}
+
+.context-badge {
+  background: rgba(79,70,229,0.12) !important;
+  color: var(--accent) !important;
+}
+
+/* Tiny responsive tweaks */
+@media (max-width: 900px) {
+  .p-dialog .p-dialog-content {
+    padding: 8px;
+  }
+  .image-panel { display:block; width:100% !important; }
+  .message-card { font-size: 0.95rem; }
+}
+
+/* Accessibility / focus */
+.image-panel input[type="file"]:focus,
+.message-input:focus,
+.message-input-textarea:focus {
+  outline: 3px solid rgba(79,70,229,0.12);
+  outline-offset: 2px;
+}
+
+/* Utility */
+.small-muted {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+```/* filepath: /Users/boniradev/Downloads/testReact/passer/src/component/chatOverPicture.css */
+
+/* Modern neutral theme for ChatOverPicture component */
+
+:root{
+  --bg:#f7f8fb;
+  --panel:#ffffff;
+  --muted:#7a8799;
+  --accent:#4f46e5;
+  --success:#22c55e;
+  --danger:#ef4444;
+  --card-shadow: 0 6px 18px rgba(31,41,55,0.06);
+  --glass: rgba(255,255,255,0.6);
+}
+
+/* Container & Dialog adjustments */
+.p-dialog .p-card {
+  box-shadow: none;
+  border-radius: 12px;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  background: linear-gradient(90deg, rgba(79,70,229,0.03), transparent);
+}
+
+.image-panel .p-card-title {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Left image panel */
+.image-panel input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: var(--panel);
+  border: 1px dashed rgba(0,0,0,0.06);
+  cursor: pointer;
+}
+
+.image-panel img {
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.04);
+  box-shadow: var(--card-shadow);
+  background: linear-gradient(180deg, #fff, #fbfdff);
+}
+
+/* Buttons group */
+.image-panel .p-button {
+  min-width: 110px;
+}
+
+/* Chat area */
+.message-card {
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(16,24,40,0.03);
+  background: var(--panel);
+}
+
+/* Differentiate user and model messages */
+.user-message {
+  align-self: flex-end;
+  background: linear-gradient(180deg, #f8fafc, #eef2ff);
+  border-left: 3px solid rgba(79,70,229,0.12);
+}
+
+.model-message {
+  align-self: flex-start;
+  background: linear-gradient(180deg, #ffffff, #fbfdff);
+  border-left: 3px solid rgba(34,197,94,0.06);
+}
+
+/* Message header */
+.message-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px;
+}
+
+.message-header strong {
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.message-header .timestamp {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-left: 8px;
+}
+
+/* Message content */
+.message-content {
+  display:block;
+  color:#111827;
+  font-size:0.95rem;
+  line-height:1.45;
+  word-break: break-word;
+}
+
+.message-content img {
+  border-radius:8px;
+  border:1px solid rgba(0,0,0,0.04);
+}
+
+/* Conversation / scroll area */
+.messages-container {
+  background: linear-gradient(180deg, #fcfdff, #f8fafc);
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.03);
+}
+
+/* Input area */
+.input-container {
+  margin-top: 8px;
+  padding: 8px 0;
+}
+
+.message-input, .message-input-textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.06) !important;
+  padding: 10px 12px;
+  background: #fff;
+  box-shadow: inset 0 1px 0 rgba(16,24,40,0.02);
+}
+
+.send-button {
+  background: linear-gradient(90deg, var(--accent), #6d28d9) !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: 0 6px 18px rgba(79,70,229,0.12);
+}
+
+/* Progress / spinner area */
+.answering-indicator {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:8px;
+  color: var(--muted);
+}
+
+/* Small UI helpers */
+.welcome-message {
+  padding: 28px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(79,70,229,0.02), rgba(79,70,229,0.01));
+  text-align: center;
+  color: var(--muted);
+}
+
+.context-badge {
+  background: rgba(79,70,229,0.12) !important;
+  color: var(--accent) !important;
+}
+
+/* Tiny responsive tweaks */
+@media (max-width: 900px) {
+  .p-dialog .p-dialog-content {
+    padding: 8px;
+  }
+  .image-panel { display:block; width:100% !important; }
+  .message-card { font-size: 0.95rem; }
+}
+
+/* Accessibility / focus */
+.image-panel input[type="file"]:focus,
+.message-input:focus,
+.message-input-textarea:focus {
+  outline: 3px solid rgba(79,70,229,0.12);
+  outline-offset: 2px;
+}
+
+/* Utility */
+.small-muted {
+  color: var(--muted);
+  font-size: 0.82rem;
+}

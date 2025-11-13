@@ -1,0 +1,79 @@
+{
+    "passer": {
+        "Ollama": [
+            {
+                "name": "OllamaEndPoint1",
+                "url": "http://127.0.0.1:11434"
+            },
+            {
+                "name": "OllamaEndPoint2",
+                "url": "http://your-ollama-server-ip:port"
+            },
+            {
+                "name": "OllamaEndPoint3",
+                "url": "http://your-ollama-server-ip:port"
+            }
+        ],
+        "Chroma": [
+            {
+                "name": "ChromaEndPoint1",
+                "url": "http://127.0.0.1:8000"
+            },
+            {
+                "name": "ChromaEndPoint2",
+                "url": "http://your-chroma-server-ip:port"
+            }
+        ],
+        "MultiAgent": [
+            {
+                "name": "Local MultiAgent",
+                "url": "http://127.0.0.1:8004"
+            },
+            {
+                "name": "Remote MultiAgent 1",
+                "url": "http://your-multiagent-server-ip:port"
+            },
+            {
+                "name": "Remote MultiAgent 2",
+                "url": "http://your-multiagent-server-ip:port"
+            }
+        ],
+        "PythonNames": "http://your-backend-server-ip:port/getnames",
+        "PythonTestData": "http://your-backend-server-ip:port/gettestdata",
+        "PythonScore": "http://your-backend-server-ip:port/metrics",
+        "PythonMAScore": "http://your-backend-server-ip:port/metrics",
+        "PythonTimes": "http://your-backend-server-ip:port/metrics",
+        "BCEndPoints": [
+            {
+                "name": "BCEndPoint1",
+                "url": "http://your-blockchain-node-url:port"
+            },
+            {
+                "name": "BCEndPoint2",
+                "url": "http://your-blockchain-node-url:port"
+            },
+            {
+                "name": "BCEndPoint3",
+                "url": "http://your-blockchain-node-url:port"
+            }
+        ],
+        "BCid": "your-blockchain-transaction-id",
+        "IPFSEndPoints": [
+            {
+                "name": "IPFSEndPoint1",
+                "host": "your-ipfs-server-ip",
+                "port": "5001"
+            },
+            {
+                "name": "IPFSEndPoint2",
+                "host": "your-ipfs-server-ip",
+                "port": "5001"
+            },
+            {
+                "name": "IPFSEndPoint3",
+                "host": "your-ipfs-server-ip",
+                "port": "5001"
+            }
+        ]
+    }
+}

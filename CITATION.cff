@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "PaSSER: Platform for Smart Testing and Evaluation of RAG Systems"
+abstract: "A comprehensive web-based platform for implementing, testing, and evaluating Retrieval-Augmented Generation (RAG) systems with Large Language Models (LLMs), blockchain integration, and advanced NLP metrics."
+authors:
+  - family-names: "Your Family Name"
+    given-names: "Your Given Name"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Your Institution"
+  - family-names: "Co-author Family Name"
+    given-names: "Co-author Given Name"
+    orcid: "https://orcid.org/0000-0000-0000-0001"
+    affiliation: "Your Institution"
+repository-code: "https://github.com/yourusername/passer"
+url: "https://github.com/yourusername/passer"
+keywords:
+  - "Retrieval-Augmented Generation"
+  - "RAG"
+  - "Large Language Models"
+  - "LLM"
+  - "Natural Language Processing"
+  - "NLP"
+  - "Blockchain"
+  - "Machine Learning"
+  - "AI Evaluation"
+  - "Model Testing"
+  - "Multi-Agent Systems"
+  - "ChromaDB"
+  - "Vector Database"
+  - "IPFS"
+  - "Ollama"
+license: MIT
+version: 0.7.0
+date-released: "2025-10-30"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Your Family Name"
+      given-names: "Your Given Name"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+      affiliation: "Your Institution"
+    - family-names: "Co-author Family Name"
+      given-names: "Co-author Given Name"
+      orcid: "https://orcid.org/0000-0000-0000-0001"
+      affiliation: "Your Institution"
+  title: "PaSSER: Platform for Smart Testing and Evaluation of RAG Systems"
+  journal: "Journal Name"
+  year: 2025
+  volume: X
+  issue: X
+  start: XX
+  end: XX
+  doi: "10.xxxx/xxxxx"
+funding:
+  - institution: "Bulgarian Ministry of Education and Science"
+    program: "National Research Program 'Smart crop production'"
+    award: "Ministry Council No. 866/26.11.2020"

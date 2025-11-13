@@ -1,0 +1,98 @@
+/* PrimeReact Grid System */
+.p-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  margin-top: -0.5rem;
+}
+
+.p-col {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.p-col-12 {
+  flex: 0 0 auto;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.p-md-6 {
+  width: 50%;
+}
+
+.p-justify-center {
+  justify-content: center;
+}
+
+.p-align-start {
+  align-items: flex-start;
+}
+
+.p-mt-4 {
+  margin-top: 1.5rem;
+}
+
+/* PrimeReact Field System */
+.p-fluid .p-field {
+  margin-bottom: 1rem;
+}
+
+.p-field {
+  margin-bottom: 1rem;
+}
+
+.p-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #374151;
+  font-weight: 600;
+}
+
+/* Input Group Styling */
+.p-inputgroup {
+  display: flex;
+}
+
+.p-inputgroup .p-inputtext {
+  border-radius: 6px 0 0 6px;
+}
+
+.p-inputgroup .p-button {
+  border-radius: 0 6px 6px 0;
+}
+
+/* Button Styling */
+.p-button-lg {
+  padding: 0.75rem 1.25rem;
+  font-size: 1.125rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 960px) {
+  .p-md-6 {
+    width: 100%;
+  }
+  
+  .p-grid {
+    flex-direction: column;
+  }
+}
+
+/* Custom styling for better layout */
+.image-panel {
+  padding-right: 0.5rem;
+}
+
+.controls-panel {
+  padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .image-panel,
+  .controls-panel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

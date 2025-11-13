@@ -1,0 +1,143 @@
+.config-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.config-card .p-card-title {
+    color: #667eea;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.testing-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testing-card .p-card-title {
+    color: #667eea;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.p-field {
+    margin-bottom: 1rem;
+}
+
+.p-field label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #495057;
+    font-weight: 500;
+}
+
+.slider {
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #667eea;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #667eea;
+    cursor: pointer;
+}
+
+.p-chip-success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.p-chip-danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.p-accordion .p-accordion-header-link {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #495057;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.p-accordion .p-accordion-header-link:hover {
+    background: #e9ecef;
+}
+
+.p-accordion .p-accordion-content {
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    background: #ffffff;
+}
+
+.p-progressbar {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.p-progressbar .p-progressbar-value {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.p-message {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.p-button-success {
+    background: linear-gradient(90deg, #4caf50 0%, #45a049 100%);
+    border: none;
+}
+
+.p-button-success:hover {
+    background: linear-gradient(90deg, #45a049 0%, #3d8b40 100%);
+}
+
+.p-button-success:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Scrollbar styling for results */
+pre::-webkit-scrollbar {
+    width: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+pre::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+    background: #764ba2;
+}
