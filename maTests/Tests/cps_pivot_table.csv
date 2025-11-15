@@ -1,0 +1,6 @@
+,Granite,Llama3,Mistral,Shared
+Baseline,0.5658,0.5397,0.5796,0.5658
+Collaborative,0.3655,0.3873,0.3755,0.3871
+Sequential,0.3999,0.5139,0.4121,0.4361
+Competitive,0.4224,0.5047,0.4344,0.4854
+Hierarchical,0.4038,0.5113,0.4211,0.4746

@@ -1,0 +1,59 @@
+T-CPS Model Analysis
+==================================================
+
+Model: Llama 3.1 8B
+  Optimal Baseline
+  Max T-CPS: 0.5829
+  Mean T-CPS: 0.5309
+  Std T-CPS: 0.0629
+
+Model: Granite 3.2 8B
+  Optimal Baseline
+  Max T-CPS: 0.6125
+  Mean T-CPS: 0.4687
+  Std T-CPS: 0.0833
+
+Model: Shared
+  Optimal Baseline
+  Max T-CPS: 0.6125
+  Mean T-CPS: 0.5081
+  Std T-CPS: 0.0712
+
+Model: Mistral 7B
+  Optimal Baseline
+  Max T-CPS: 0.6267
+  Mean T-CPS: 0.4815
+  Std T-CPS: 0.0844
+
+
+==================================================
+STATISTICAL SIGNIFICANCE ANALYSIS
+==================================================
+
+Paired t-tests comparing CPS scores vs baseline 
+Significance levels: *** p<0.001, ** p<0.01, * p<0.05, ns = not significant
+
+Model: Llama 3.1 8B
+  Collaborative: Δ=-0.1524, t=-14.733, p=0.0000 ***, d=-1.473
+  Sequential: Δ=-0.0258, t=-1.915, p=0.0584 ns, d=-0.192
+  Competitive: Δ=-0.0350, t=-2.511, p=0.0137 *, d=-0.251
+  Hierarchical: Δ=-0.0284, t=-1.975, p=0.0511 ns, d=-0.197
+
+Model: Granite 3.2 8B
+  Collaborative: Δ=-0.2003, t=-20.935, p=0.0000 ***, d=-2.093
+  Sequential: Δ=-0.1659, t=-17.033, p=0.0000 ***, d=-1.703
+  Competitive: Δ=-0.1435, t=-14.393, p=0.0000 ***, d=-1.439
+  Hierarchical: Δ=-0.1620, t=-16.326, p=0.0000 ***, d=-1.633
+
+Model: Shared
+  Collaborative: Δ=-0.1787, t=-19.485, p=0.0000 ***, d=-1.948
+  Sequential: Δ=-0.1297, t=-10.628, p=0.0000 ***, d=-1.063
+  Competitive: Δ=-0.0804, t=-6.632, p=0.0000 ***, d=-0.663
+  Hierarchical: Δ=-0.0913, t=-7.966, p=0.0000 ***, d=-0.797
+
+Model: Mistral 7B
+  Collaborative: Δ=-0.2041, t=-19.470, p=0.0000 ***, d=-1.947
+  Sequential: Δ=-0.1674, t=-13.632, p=0.0000 ***, d=-1.363
+  Competitive: Δ=-0.1452, t=-12.724, p=0.0000 ***, d=-1.272
+  Hierarchical: Δ=-0.1584, t=-13.624, p=0.0000 ***, d=-1.362
+
