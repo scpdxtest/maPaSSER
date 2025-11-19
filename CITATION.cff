@@ -1,21 +1,36 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "PaSSER: Platform for Smart Testing and Evaluation of RAG Systems"
-abstract: "A comprehensive web-based platform for implementing, testing, and evaluating Retrieval-Augmented Generation (RAG) systems with Large Language Models (LLMs), blockchain integration, and advanced NLP metrics."
+title: "Multi-Agent Coordination Strategies vs Retrieval-Augmented Generation in LLMs: A Comparative Evaluation."
 authors:
-  - family-names: "Your Family Name"
-    given-names: "Your Given Name"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-    affiliation: "Your Institution"
-  - family-names: "Co-author Family Name"
-    given-names: "Co-author Given Name"
-    orcid: "https://orcid.org/0000-0000-0000-0001"
-    affiliation: "Your Institution"
+  - family-names: "Radeva"
+    given-names: "Irina"
+    orcid: "https://orcid.org/0009-0004-8531-5980"
+    affiliation: "Intelligent Systems Department, Institute of Information and Communication Technologies,
+                  Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria; Faculty of Informatics and Mathematics,
+                  Trakia University Stara Zagora, Bulgaria"
+  - family-names: "Popchev"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0002-8128-3980"
+    affiliation: "Bulgarian Academy of Sciences, 1040 Sofia, Bulgaria"
+  - family-names: "Doukovska"
+    given-names: "Lyubka"
+    orcid: "https://orcid.org/0000-0002-0978-5014"
+    affiliation: "Intelligent Systems Department, Institute of Information and Communication Technologies,
+                  Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria; Faculty of Informatics and Mathematics,
+                  Trakia University Stara Zagora, Bulgaria"
+  - family-names: "Dimitrova"
+    given-names: "Miroslava"
+    orcid: "https://orcid.org/0009-0008-7034-9773"
+    affiliation: "Intelligent Systems Department, Institute of Information and Communication Technologies,
+                  Bulgarian Academy of Sciences, 1113 Sofia, Bulgaria"
 repository-code: "https://github.com/yourusername/passer"
 url: "https://github.com/yourusername/passer"
 keywords:
-  - "Retrieval-Augmented Generation"
+  - "Multi-agent coordination strategies"
+  - "Comparative evaluation"
+  - "Performance evaluation"
+  - "Retrieval-Augmented Generation (RAG)"
   - "RAG"
   - "Large Language Models"
   - "LLM"
@@ -32,7 +47,7 @@ keywords:
   - "Ollama"
 license: MIT
 version: 0.7.0
-date-released: "2025-10-30"
+date-released: "2025-11-16"
 preferred-citation:
   type: article
   authors:
@@ -44,15 +59,15 @@ preferred-citation:
       given-names: "Co-author Given Name"
       orcid: "https://orcid.org/0000-0000-0000-0001"
       affiliation: "Your Institution"
-  title: "PaSSER: Platform for Smart Testing and Evaluation of RAG Systems"
-  journal: "Journal Name"
+  title: "Multi-Agent Coordination Strategies vs Retrieval-Augmented Generation in LLMs: A Comparative Evaluation."
+  journal: "Prerpints.org"
   year: 2025
   volume: X
   issue: X
   start: XX
   end: XX
-  doi: "10.xxxx/xxxxx"
+  doi: "https://doi.org/10.20944/preprints202511.1168.v1"
 funding:
-  - institution: "Bulgarian Ministry of Education and Science"
-    program: "National Research Program 'Smart crop production'"
-    award: "Ministry Council No. 866/26.11.2020"
+  - Operational Programme "Innovation and Competitiveness" 2014-2020, 
+  co-financed by the Euro-pean Union through the European Regional Development Fund, 
+  under grant number BG16RFPR002-1.014-0013-C01 "Digitization of the Economy in a Big Data Environment (DIGD)".
